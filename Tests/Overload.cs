@@ -20,9 +20,7 @@ namespace Tests
 
         public bool Method (ref Human human)
         {
-            Human h = new Human();
-            h.Name = "Alex";
-            h.Age = 29;
+            Human h = new Human { Name = "Alex", Age = 29 };
             human = h;
             return true;
         }

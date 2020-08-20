@@ -10,7 +10,7 @@ namespace Tests
             Overload overload = new Overload();
             string str = "Goodbye";
             int num = 10;
-            Human h = new Human("Bob", 40);
+            Human h = new Human { Name = "Bob", Age = 40 };
             h.Print();
             Console.WriteLine(str);
             Console.WriteLine(num);
